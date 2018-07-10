@@ -25,8 +25,21 @@
     .map(function(a){return a[1]});
   };
 
-  var validName = false;
+  var humanify = function(name) {
+    name = name.split('')
+    name[0] = name[0].toUpperCase()
+    name = name.join('')
+    return name.replace("_", " ")
+  }
 
+  var snakify = function(name) {
+    name = name.split('')
+    name[0] = name[0].toLowerCase()
+    name = name.join('')
+    return name.replace(" ", "_")
+  }
+
+  var validName = false;
 
   var setQuizz = function () {
     var response = quizz();
@@ -39,7 +52,7 @@
 
     wrongResponses.forEach(function(name, idx) {
       var responseTile = document.getElementById("response_"+idx);
-      responseTile.innerHTML = name;
+      responseTile.innerHTML = humanify(name);
     })
 
     quote.innerHTML = response.text;
@@ -50,7 +63,7 @@
     var response = event.target.innerHTML
     var bonne_reponse = document.getElementById("bonne_reponse")
     var mauvaise_reponse = document.getElementById("mauvaise_reponse")
-    if (response === validName) {
+    if (snakify(response) === validName) {
       bonne_reponse.innerHTML = bio();
       mauvaise_reponse.innerHTML = "";
     } else {
