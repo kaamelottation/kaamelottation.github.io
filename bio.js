@@ -24,6 +24,6 @@ var bio = function() {
   if (bio_data.length > 0) {
     return bio_data.shift();
   } else {
-    return 'Bravo tu as trouvé la bonne réponse!'
+    return "<img src='/bravo.gif'>"
   }
 }
