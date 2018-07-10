@@ -54,7 +54,7 @@
       bonne_reponse.innerHTML = bio();
       mauvaise_reponse.innerHTML = "";
     } else {
-      mauvaise_reponse.innerHTML = "<img src='https://media.giphy.com/media/GSAyeyIkEs6Z2/giphy.gif'>"
+      mauvaise_reponse.innerHTML = "<img src='/karadoc.gif'>"
       bonne_reponse.innerHTML =  ""
     }
     setQuizz();
