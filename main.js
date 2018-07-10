@@ -29,14 +29,16 @@
     name = name.split('')
     name[0] = name[0].toUpperCase()
     name = name.join('')
-    return name.replace("_", " ")
+    name = name.replace("darme", "d'arme")
+    return name.replace(/_/g, " ")
   }
 
   var snakify = function(name) {
     name = name.split('')
     name[0] = name[0].toLowerCase()
     name = name.join('')
-    return name.replace(" ", "_")
+    name = name.replace("d'arme", "darme")
+    return name.replace(/ /g, "_")
   }
 
   var validName = false;
