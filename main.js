@@ -47,7 +47,6 @@
   }
 
   function validateResponse(event) {
-    console.log(event.target.innerHTML)
     var response = event.target.innerHTML
     var bonne_reponse = document.getElementById("bonne_reponse")
     var mauvaise_reponse = document.getElementById("mauvaise_reponse")
