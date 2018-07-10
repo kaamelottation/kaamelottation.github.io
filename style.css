@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+  background-color: #F5F4EF;
+  padding: 1em;
+  font-family: Helvetica, sans-serif;
+}
+.albion>a {
+  color: #F5F4EF;
+}
+.join_me {
+  background-color: #521409;
+}
+.image_fit {
+  width: auto;
+  height: 10em;
+}
+#citation {
+  padding: 2em;
+  font-size: 1.5em;
+  border: 1px solid black;
+}
+.response-tile {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+}
+.response-tile:hover {
+  background-color: grey;
+}
+#bonne_reponse{
+  font-size: 1.2em;
+  color: #521409;
+  margin-top: 1em;
+  padding: 0.5em;
+}
