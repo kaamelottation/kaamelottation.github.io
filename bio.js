@@ -1,20 +1,23 @@
 var bio_data = [
-  "Je suis né en mars",
-  "J'ai grandis en Auvergne",
+  "Je suis né en mars 89",
+  "Je suis Bourbonnais et un peu Auvergnat mais le dites pas aux Bourbonnais!",
+  "J'ai étudié à SUPINFO",
   "Slyb1 a recruté Yogourt sur Albion Online",
   "Je suis Yogourt.",
   "Albion Online c'est la bombe!",
   "J'aimeuh les oridnateurs.",
-  "C'est mon premier emploi en France.",
-  "Je reviens de Montreal.",
+  "Zenika est mon premier emploi en France.",
+  "Je reviens de 4 ans à Montreal.",
+  "NON! Je n'aime pas la poutine!",
+  "Par contre une bonne truffade, je ne refuserai jamais!",
   "Node JS est mon interpreteur de javascript préféré.",
-  "Javascript est mon language préféré.",
-  "Chor Rin est mon alter ego spatial suicidaire à tendance caldari. (dans le bon ordre).",
-  "Je suis developpeur backend, j'aime les APIs! GLOIRE AUX APIs!",
+  "Javascript est mon language favori.",
+  "Chor Rin est mon alter ego spatial suicidaire à tendance Caldari. (dans le bon ordre).",
+  "Je suis un developpeur backend, j'aime les APIs! GLOIRE AUX APIs!",
   "Une certaine passion pour la bière m'habite...",
   "Il m'arrive de gratouiller ma guitare.",
-  "<a href='https://github.com/bassochette' target='_blank'> Mon compte github </a>",
-  "Voila, tu sais tout!"
+  "npm install -g lorem-kaamelottsum && lorem-kaamelottsum",
+  "Voilà, tu sais tout!"
 ];
 
 var bio = function() {
